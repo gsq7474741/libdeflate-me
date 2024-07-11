@@ -1,3 +1,4 @@
+#include "common_defs.h"
 /*
  * crc32_tables.h - data tables for CRC-32 computation
  *

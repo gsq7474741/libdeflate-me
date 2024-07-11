@@ -55,7 +55,7 @@ typedef s16 mf_pos_t;
  * here come from the AVX-2 implementation, which is the worst case.
  */
 #define MATCHFINDER_MEM_ALIGNMENT	32
-#define MATCHFINDER_SIZE_ALIGNMENT	128
+#define MATCHFINDER_SIZE_ALIGNMENT	1
 
 #undef matchfinder_init
 #undef matchfinder_rebase

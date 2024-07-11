@@ -114,6 +114,7 @@ bt_matchfinder_init(struct bt_matchfinder *mf)
 static forceinline void
 bt_matchfinder_slide_window(struct bt_matchfinder *mf)
 {
+//	constexpr auto a = sizeof(*mf);
 	STATIC_ASSERT(sizeof(*mf) % MATCHFINDER_SIZE_ALIGNMENT == 0);
 
 	matchfinder_rebase((mf_pos_t *)mf, sizeof(*mf));
